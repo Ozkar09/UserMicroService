@@ -1,0 +1,12 @@
+version: '3.2'
+services:
+  user_micro_service_api:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 8088:80
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+    env_file:
+      - user-micro-service-api.env

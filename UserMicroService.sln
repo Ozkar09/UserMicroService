@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicroService.API", "UserMicroService.API\UserMicroService.API.csproj", "{E147FD74-D7EB-4735-88CF-5A4CABD1586A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMicroService", "UserMicroService\UserMicroService.csproj", "{A0B07464-68D6-4E09-9639-D4DBFFEC8ACF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E147FD74-D7EB-4735-88CF-5A4CABD1586A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E147FD74-D7EB-4735-88CF-5A4CABD1586A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E147FD74-D7EB-4735-88CF-5A4CABD1586A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E147FD74-D7EB-4735-88CF-5A4CABD1586A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B07464-68D6-4E09-9639-D4DBFFEC8ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B07464-68D6-4E09-9639-D4DBFFEC8ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B07464-68D6-4E09-9639-D4DBFFEC8ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B07464-68D6-4E09-9639-D4DBFFEC8ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
