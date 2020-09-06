@@ -61,16 +61,6 @@ namespace UserMicroService.Infraestructure.EntityFramework
                     .HasMaxLength(50)
                     .IsUnicode(false);
                 
-                entity.Property(e => e.Rol)
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
-                
-                entity.Property(e => e.Rol)
-                    .IsRequired()
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
-                
                 entity.Property(e => e.Status)
                     .IsRequired()
                     .HasMaxLength(20)
