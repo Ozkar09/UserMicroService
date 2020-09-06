@@ -21,5 +21,11 @@ namespace UserMicroService.API.Controllers
         {
             return await _usersMicroserviceFacade.AutenticateUser(autentication);
         }
+        
+        [HttpGet("ping")]
+        public ActionResult<string> HealthCheck()
+        {
+            return Ok("pong!");
+        }
     }
 }
