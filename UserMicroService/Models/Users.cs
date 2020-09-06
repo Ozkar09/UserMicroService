@@ -9,5 +9,7 @@
         public long? Phone { get; set; }
         public string Rol { get; set; }
         public string Password { get; set; }
+        public string Status { get; set; }
+        public string Category { get; set; }
     }
 }

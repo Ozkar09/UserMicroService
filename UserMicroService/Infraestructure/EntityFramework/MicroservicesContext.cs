@@ -60,6 +60,26 @@ namespace UserMicroService.Infraestructure.EntityFramework
                     .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false);
+                
+                entity.Property(e => e.Rol)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+                
+                entity.Property(e => e.Rol)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+                
+                entity.Property(e => e.Status)
+                    .IsRequired()
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
+                
+                entity.Property(e => e.Category)
+                    .IsRequired()
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

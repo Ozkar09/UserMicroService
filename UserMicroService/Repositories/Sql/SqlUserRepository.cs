@@ -89,6 +89,8 @@ namespace UserMicroService.Repositories.Sql
                     userRequested.Phone = user.Phone;
                     userRequested.Rol = user.Rol;
                     userRequested.LastName = user.LastName;
+                    userRequested.Status = user.Status;
+                    userRequested.Category = user.Category;
 
                     await context.SaveChangesAsync();
 
