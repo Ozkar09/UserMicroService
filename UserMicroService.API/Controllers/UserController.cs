@@ -54,5 +54,11 @@ namespace UserMicroService.API.Controllers
         {
             return await _usersMicroserviceFacade.DeleteUser(userId);
         }
+        
+        [HttpGet("ping")]
+        public ActionResult<string> HealthCheck()
+        {
+            return Ok("Pong !");
+        }
     }
 }
