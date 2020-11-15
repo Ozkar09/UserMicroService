@@ -136,7 +136,7 @@ namespace UserMicroService.Repositories.Sql
                 await using (var context = (MicroservicesContext) _microserviceContext.GetContext())
                 {
                     var userAutenticated =
-                        await context.Users.SingleOrDefaultAsync(x =>
+                        await context.Users.FirstOrDefaultAsync(x =>
                             x.Email.Equals(autenticationd.Email) && x.Password.Equals(autenticationd.Password));
 
                     return userAutenticated;
